@@ -1,0 +1,31 @@
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-input,
+.meal-estimate,
+.dollar-input {
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.perweek,
+.permeal,
+.perday {
+  margin: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.vert {
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 15px;
+}
